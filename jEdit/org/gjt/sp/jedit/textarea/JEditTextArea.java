@@ -323,7 +323,13 @@ public class JEditTextArea extends TextArea
 
 		doWordCount(view,buffer.getText(0,buffer.getLength()));
 	} //}}}
-
+	
+		
+	public void toggleScrollBars()
+	{
+		this.setScrollBars();
+	}
+	
 	//{{{ Getters and setters
 
 	//{{{ getView() method

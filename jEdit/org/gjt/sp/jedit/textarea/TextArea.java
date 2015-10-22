@@ -6341,4 +6341,12 @@ loop:		for(int i = lineNo - 1; i >= 0; i--)
 		structureTimer.setInitialDelay(100);
 		structureTimer.setRepeats(false);
 	} //}}}
+	
+	public void setScrollBars()
+	{
+		boolean state = horizontal.isVisible();
+		
+		this.horizontal.setVisible(!state);
+		this.vertical.setVisible(!state);
+	}
 }

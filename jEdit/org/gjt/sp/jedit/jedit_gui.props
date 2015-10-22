@@ -275,7 +275,9 @@ edit=undo \
      - \
      %text \
      %indent \
-     %source
+     %source \
+     - \
+     scroll-bars
 edit.label=$Edit
 undo.label=$Undo
 undo.icon.small=16x16/actions/edit-undo.png
@@ -289,6 +291,7 @@ paste.label=$Paste
 paste.icon.small=16x16/actions/edit-paste.png
 select-all.label=Select $All
 word-count.label=$Word Count...
+scroll-bars.label=Toggle Scroll Bars
 complete-word.label=Co$mplete Word
 expand-abbrev.label=E$xpand Abbreviation
 goto-line.label=$Go to Line...
